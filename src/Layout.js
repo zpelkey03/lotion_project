@@ -4,11 +4,10 @@ import { useState, useEffect } from "react";
 import Sidebar from './Sidebar';
 import Notepad from './Notepad';
 import uuid from "react-uuid";
-import { useParams } from "react-router-dom";
 
 function Layout() {
 
-  const { noteId } = useParams();
+
     
     const [notesVisible, setNotesVisible] = useState(true);
     
