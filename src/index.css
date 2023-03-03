@@ -1,0 +1,197 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100px;
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  color: #888;
+}
+.logo {
+  text-align: center;
+  flex: 1;
+}
+
+h1 {
+  font-weight: 2000;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.menu-icon svg {
+  fill: #000;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.notes-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.notepad-container {
+  flex: 1;
+  padding: 1rem;
+}
+
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+}
+
+.notes-header {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100px;
+  border-bottom: 1px solid #ccc;
+  font-size: 24px;
+  width: 100%;
+  padding: 0px;
+}
+
+.app-sidebar-note {
+
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+
+}
+
+strong {
+  font-size: 24px;
+}
+
+.main-content{
+width: 99%;
+}
+
+.app-main {
+  width: 100%;
+}
+
+
+/* Editing */
+.app-main-edit {
+  padding: 25px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.app-main-note input,
+textarea {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  height: calc(50vh - 100px);
+  padding: 10px;
+  resize: none;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+}
+.app-main-edit input {
+  height: 70px;
+  width: 100%;
+  font-size: 2rem;
+  border: none;
+  
+
+}
+
+.app-sidebar-note.active,
+.app-sidebar-note.active small {
+  background: rgb(64, 64, 64);
+  color: white;
+}
+
+.no-active-note {
+  width: 70%;
+  height: 100vh;
+  line-height: 50vh;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #999;
+}
+
+.notepad-header {
+  display: flex;
+
+  width: 100%
+}
+
+.notepad-header h1{
+  width: 100%;
+  font-size: 2rem;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 10;
+  
+}
+.buttons {
+  display: flex;
+ }
+
+ .buttons button{
+  font-size: 18px;
+ }
+
+ .date-time{
+  color: #888;
+  border-bottom: 1px solid #888;
+  margin-bottom: 10px;
+ }
+
+ .date-time input {
+  width: 250px; /* adjust the width to your desired size */
+  height: 30px; /* adjust the height to your desired size */
+  font-size: 14px; /* adjust the font size to your desired size */
+  padding: 5px; /* add padding to make the input field more readable */
+  box-sizing: border-box; /* include padding in the input field dimensions */
+}
+ 
+ .app-main button:hover {
+  background: rgb(64, 64, 64);
+  color: white;
+}
